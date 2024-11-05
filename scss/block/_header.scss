@@ -1,0 +1,130 @@
+.header {
+    padding-top: 16px;
+}
+
+.header_link {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-a);
+}
+
+.header_links {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c2-a);
+}
+
+.in_link {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c2-a);
+}
+
+.header_list {
+    display: flex;
+    gap: 33px;
+    align-items: center;
+}
+
+
+
+.header_in_list {
+    display: flex;
+    gap: 38px;
+    align-items: center;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header_select {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    border-radius: 12px;
+    background: var(--c1-h);
+    border: none;
+    width: 140px;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-a);
+}
+
+.header_input {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    margin-left: 48px;
+    width: 262px;
+    background-color: #f9f9f9;
+    padding-right: 44px;
+    position: relative;
+}
+
+.form::before{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 470px;
+    top: 14px;
+    content: "";
+    background-image: url(../img/chat_13.svg);
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+
+.mi_div_2 {
+    display: flex;
+}
+
+.mi_div_3 {
+    position: relative;
+    display: flex;
+    gap: 40px;
+}
+
+.mi_div_3::after {
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 18px;
+    top: 10px;
+    left: 53px;
+    display: inline-block;
+    background-image: url(../../img/chat_11.svg);
+}
+
+.header_middle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.form {
+    width: 500px;
+    background-color: #f9f9f9;
+    border: 1px solid var(--c1-d);
+    position: relative;
+    border-radius: 12px;
+    width: 500px;
+    background: var(--c1-h);
+}
+
+.form::after{
+    position: absolute;
+    content: "";
+    width: 20px;
+    top: 20px;
+    left: 153px;
+    border: 1px solid var(--c1-d);
+    transform: rotate(-90deg);
+    background-image: url(../../img/chat_12.svg);
+}

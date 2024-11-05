@@ -1,0 +1,251 @@
+.abb_text {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--c1-a);
+}
+
+.about_blocks{
+    margin-bottom: 48px;
+}
+
+.abb_strong {
+    border-radius: 12px;
+    padding: 0px 8px;
+    width: 38px;
+    height: 18px;
+    background: var(--c2-e);
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--c2-a);
+}
+
+
+
+.abb_item {
+    width: 268px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.abb_title {
+    margin-bottom: 16px;
+}
+
+.about {
+    padding-top: 100px;
+}
+
+.checkbox {
+    margin: 40px;
+}
+
+.custom_chekbox {
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    border: 2px solid var(--c1-d);
+
+}
+
+.checkbox:checked+.custom_chekbox {
+    background-color: var(--c2-b);
+    background-image: url(../img/cat_4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.li_item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 12px;
+
+}
+
+.abb_cap_title {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+}
+
+.abb_cap_title_1 {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+}
+
+.li_list {
+    margin-bottom: 48px;
+}
+
+.abb_inner_block {
+    margin-top: 48px;
+}
+
+.custom_sub {
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    border: 2px solid var(--c1-d);
+}
+
+.checkbox:checked+.custom_sub {
+    background-color: var(--c2-b);
+    background-image: url(../img/cat_4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.abb_cap_1 {
+    margin-bottom: 16px;
+}
+
+.inputs_title {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+    margin-bottom: 16px;
+}
+
+.player {
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    color: var(--c1-c);
+    border: 1px solid var(--c1-d);
+    border-radius: 12px;
+    width: 109px;
+    height: 42px;
+    padding: 12px 16px 12px 21px;
+    background: var(--c1-h);
+}
+
+
+
+.player_1 {
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    color: var(--c1-c);
+    border: 1px solid var(--c1-d);
+    border-radius: 12px;
+    width: 109px;
+    height: 42px;
+    padding: 12px 16px 12px 21px;
+    background: var(--c1-h);
+}
+
+.play_text {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--c1-c);
+    margin-top: 32px;
+}
+
+.play_list {
+    display: flex;
+    gap: 14px;
+}
+
+.button_1 {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-j);
+    border: 2px solid var(--c2-b);
+    border-radius: 12px;
+    padding: 13px 18px;
+    width: 78px;
+    height: 48px;
+    background: var(--c2-a);
+}
+
+.button_2 {
+    border-radius: 12px;
+    padding: 8px 14px;
+    width: 67px;
+    height: 35px;
+    background: var(--c1-j);
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    color: var(--c1-c);
+}
+
+.buttun_lict {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+    margin-top: 31px;
+}
+
+
+.headline_img {
+    margin-bottom: 16px;
+}
+
+.about_com_item {
+    border: 1px solid var(--c1-d);
+    border-radius: 12px;
+    padding: 16px;
+    position: relative;
+    width: 268px;
+    background: var(--c1-j);
+}
+
+.about_com_item::after {
+    position: absolute;
+    content: "";
+    width: 88px;
+    height: 16px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    top: 267px;
+    left: 16px;
+    background-image: url(../img/chat_9.svg);
+}
+
+.headline_com_title {
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--c1-a);
+}
+
+.headline_com_text {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 44px;
+    color: var(--c1-b);
+}
+
+.headline_in_btn {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-j);
+    background: var(--c2-a);
+    border: 2px solid var(--c2-b);
+    border-radius: 12px;
+    padding: 12px;
+    width: 90px;
+}
+
+.headline_div{
+    display: flex;
+    gap: 55px;
+}
+
+.about_com_list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.blocks{
+    display: flex;
+    gap: 34px;
+}

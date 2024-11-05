@@ -1,0 +1,136 @@
+.touch_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    padding-bottom: 64px;
+    padding-top: 64px;
+}
+
+.touch_block {
+    margin-bottom: 48px;
+}
+
+.touch_title {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+    margin-bottom: 16px;
+}
+
+.touch_link {
+    font-weight: 400;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: var(--c2-a);
+}
+
+.tag_title {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c1-a);
+    margin-bottom: 16px;
+}
+
+.tags_link {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--c1-a);
+}
+
+
+.tag_link {
+    border-radius: 12px;
+    padding: 4px 10px;
+    width: 58px;
+    height: 26px;
+    background: var(--c1-f);
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--c1-a);
+}
+
+
+.tag_list {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 35px;
+    margin-bottom: 48px;
+}
+
+.show_text {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-c);
+}
+
+.show_strong {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-a);
+}
+
+.show_buttun {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--c1-j);
+    border: 2px solid var(--c2-b);
+    border-radius: 12px;
+    padding: 12px 38px 12px 16px;
+    background: var(--c2-a);
+}
+
+
+
+.show_btn {
+    position: relative;
+}
+
+.show_btn::after {
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    top: 14px;
+    left: 182px;
+    background-image: url(../img/chat_10.svg);
+}
+
+.content_1 {
+    border-radius: 12px;
+    padding: 0px 8px;
+    width: 39px;
+    background: var(--c2-e);
+    font-weight: 600;
+    font-size: 12px;
+    height: 18px;
+    color: var(--c2-a);
+}
+
+.content_2 {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--c1-c);
+}
+
+.show_content{
+    display: flex;
+    gap: 4px;
+}
+
+.show_coment{
+    display: flex;
+    gap: 8px;
+}
+
+.show{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 17px;
+    padding-bottom: 64px;
+}
